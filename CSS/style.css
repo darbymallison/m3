@@ -1,0 +1,84 @@
+/*COLOR PALETTE
+Blue -  21b0fe
+Yellow - fed700
+Pink - fe218b
+*/
+
+/*GLOBAL STYLES*/
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: white;
+    margin: 50px;
+    color: black;
+}
+/*Resume*/
+.resume header::before {
+    background: url(../images/signature.png) center;
+    background-size: cover;
+    display: block;
+    height: 375 px;
+}
+
+/*Profile*/
+
+/*Projects*/
+
+/*Work Experience*/
+.work-experience{
+    background: #21b0fe;
+    color: black; 
+}
+/*Education*/
+
+
+/*Footer*/
+footer{
+    background: #21b0fe;
+}
+footer a:hover {
+    background: #fed700;
+    color: black;
+}
+.btn{
+    background: fed700;
+    color: white;
+    text-decoration: none;
+}
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30 px;
+    max-width: 900 px;
+}
+*{
+    color: black;
+}
+h1 {
+    color: #fed700;
+}
+h2{
+    color: #fe218b;
+}
+a {
+    color: #fe218b;
+}
+section{
+    color: white;
+}
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline-block;
+}
+.social img {
+    width: 32px;
+}
